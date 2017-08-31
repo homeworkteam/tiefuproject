@@ -1,0 +1,11 @@
+1.命名尽量用英文 格式为全小写
+2.页面名称
+	首页     home.html
+	经典铁壶 classic.html
+	生肖铁壶 zodiac.html
+	铁器礼品 gift.html
+	工艺作品 technology.html
+	铸铁文化 culture.html
+	合作加盟 company.html
+	最新资讯 news.html
+	定制     custommade.html
