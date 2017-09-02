@@ -2,9 +2,9 @@
 * @Author: Administrator
 * @Date:   2017-08-31 17:30:23
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-08-31 18:30:39
+* @Last Modified time: 2017-09-02 18:30:10
 */
-var banner=$('.banner');
+var bannercon=$('.bannercon');
 var lis=$('.banner .bannerbox li');
 var btnleft=$('.banner .btnleft');
 var btnright=$('.banner .btnright');
@@ -48,7 +48,7 @@ function move(dir='left'){
 
 var t=setInterval(move,3500);
 
-banner.mouseenter(function(){
+bannercon.mouseenter(function(){
 	clearInterval(t);
 }).mouseleave(function(){
 	t=setInterval(move,3500);
