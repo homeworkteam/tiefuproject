@@ -78,7 +78,6 @@ header .leaderbox .leader a{
 	color: #DB8958;
 	font-size: 16px;
 }
-
 header .smallbanner{
 	width: 1200px;
 	height: 130px;
@@ -113,7 +112,7 @@ footer .footerbottom .topbtnbox{
 	margin: 0 auto;
 	width: 58px;
 	height: 58px;
-	background: rgba(0, 0, 0, 0.1);
+	background: rgba(221, 221, 221, 0.4);
 	border-radius: 50%;
 }
 footer .footerbottom .topbtnbox .topbtn{

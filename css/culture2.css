@@ -1,6 +1,120 @@
-/*
-* @Author: Administrator
-* @Date:   2017-09-01 08:54:47
-* @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-02 15:43:11
-*/
+header .leaderbox .leader li .point5{
+	background: #DB8958;
+}
+header .leaderbox .leader li .a5{
+	color: #FFD7BC;
+}
+.container .tec_tit{
+	margin-top: 48px;
+	height: 70px;
+}
+.container .tec_tit .hmqg{
+	height: 40px;
+	float: left;
+	margin: 4px 4px 8px 4px;
+}
+.container .tec_tit .hmqg img{
+	width: 32px;
+	height: 32px;
+	float: left;
+}
+.container .tec_tit .you{
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+}
+.container .tec_tit .hmqg .imgrg{
+	font-size: 18px;
+	line-height: 32px;
+	font-weight: normal;
+	float: left;
+}
+.banner {
+	margin-top: 10px;
+	width: 100%;
+	height: 520px;
+	background: url('../img/culture2/qingheriversandiron.png') no-repeat center center /cover;
+}
+section .gongyititle{
+	margin: 70px auto 0;
+	width: 329px;
+	height: 68px;
+	background: url('../img/culture2/gonyizhidao.png') no-repeat center /contain;
+}
+section .main{
+	width: 1130px;
+	height: auto;
+	margin: 100px auto 0;
+}
+section .main li{
+	width: 100%;
+	height: 340px;
+	display: flex;
+	justify-content: space-between;
+}
+section .main li .tleft{
+	text-align: left;
+}
+section .main li .tright{
+	text-align: right;
+}
+section .main li p{
+	font-family: '黑体';
+	font-size: 14px;
+	line-height: 30px;
+}
+section .main li .tleft p{
+	margin-left: 20px;
+}
+section .main li .tright p{
+	margin-right: 20px;
+}
+section .main li .libox1{
+	width: 550px;
+	height: 100%;
+	background: url('../img/culture2/lostwaxcasting.png') no-repeat center /contain;
+}
+section .main li .libox1 p{
+	margin-top: 120px;
+}
+section .main li .libox2{
+	width: 550px;
+	height: 100%;
+	background: url('../img/culture2/hollowhandle.png') no-repeat center /contain;
+}
+section .main li .libox2 p{
+	margin-top: 130px;
+}
+section .main li .libox3{
+	width: 550px;
+	height: 100%;
+	background: url('../img/culture2/irongilt.png') no-repeat center /contain;
+}
+section .main li .libox3 p{
+	margin-top: 125px;
+}
+section .main li .libox4{
+	width: 550px;
+	height: 100%;
+	background: url('../img/culture2/goldmosaic.png') no-repeat center /contain;
+}
+section .main li .libox4 p{
+	margin-top: 108px;
+}
+section .main li .libox5{
+	width: 550px;
+	height: 100%;
+	background: url('../img/culture2/silverbullion.png') no-repeat center /contain;
+}
+section .main li .libox5 p{
+	margin-top: 103px;
+}
+section .main li .libox6{
+	width: 550px;
+	height: 100%;
+	background: url('../img/culture2/goldmosaic2.png') no-repeat center /contain;
+}
+section .main li .libox6 p{
+	margin-top: 150px;
+}

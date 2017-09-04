@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2017-08-31 17:30:23
 * @Last Modified by:   Administrator
-* @Last Modified time: 2017-09-02 18:30:10
+* @Last Modified time: 2017-09-04 00:30:26
 */
 var bannercon=$('.bannercon');
 var lis=$('.banner .bannerbox li');
@@ -56,10 +56,10 @@ bannercon.mouseenter(function(){
 
 
 btnleft.click(function(){
-	move('left');
+	move('right');
 });
 btnright.click(function(){
-	move('right');
+	move('left');
 });
 
 pionts.click(function(){
