@@ -9,7 +9,3 @@
 	合作加盟 company.html
 	最新资讯 news.html
 	定制     custommade.html
-
- 
-3.用页面对应的英文单词命名相应的css 并将所有的css都放在css文件夹中
-4.完成日期  周一之前
