@@ -6,9 +6,9 @@
 a{
 	text-decoration: none;
 }
-img{
+/* img{
 	display: block;
-}
+} */
 
 .container{
 	width: 1200px;
@@ -78,6 +78,7 @@ header .leaderbox .leader a{
 	color: #DB8958;
 	font-size: 16px;
 }
+
 header .smallbanner{
 	width: 1200px;
 	height: 130px;
@@ -102,7 +103,7 @@ footer .footerlogo{
 	align-items: center;
 }
 footer .footerbottom{
-	margin-top: 56px;
+	margin-top: 45px;
 	height: 306px;
 	background: url('../img/footerback.png') no-repeat center /cover;
 	padding-top: 10px;
@@ -112,7 +113,7 @@ footer .footerbottom .topbtnbox{
 	margin: 0 auto;
 	width: 58px;
 	height: 58px;
-	background: rgba(221, 221, 221, 0.4);
+	background: rgba(0, 0, 0, 0.1);
 	border-radius: 50%;
 }
 footer .footerbottom .topbtnbox .topbtn{
@@ -127,6 +128,7 @@ footer .footerbottom .topbtnbox .topbtn{
 }
 footer .footerbottom .footerbox{
 	padding-top: 28px;
+	width: 700px;
 	height: 192px;
 	margin: 0 auto;
 	/* background: lime; */
