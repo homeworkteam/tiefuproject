@@ -1,0 +1,561 @@
+/*头部*/
+header{
+    width: 100%;
+    height: auto;
+    background: #d5c9bd;
+}
+.logo{
+    width: 302px;
+    height: 66px;
+    margin: 0 auto;
+    background: url('../../img/wst-img/jingdian/logo.png')) no-repeat center center;
+    background-size: 302px;
+}
+/*导航*/
+nav{
+    width: 100%;
+    height: auto;
+    background: #462327;
+}
+
+.nav{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+.nav a{
+    position: relative;
+    font-size: 16px;
+    color: #f69c62;
+    font-weight: 500;
+}
+
+.nav a:nth-child(2){
+    color: #edc7ae;
+}
+
+
+.dian{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    left: -14px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background:#ed965f;
+    visibility: hidden;
+}
+.nav a:nth-child(2) .dian{
+    visibility: visible;
+}
+
+.nav a:hover{
+    color: #edc7ae;
+}
+
+.nav a:hover  .dian{
+    visibility: visible;
+}
+
+
+
+
+
+/*图1*/
+
+.tu {
+    width: 1200px;
+    height: 130px;
+    margin: 0 auto;
+    background: url(../../img/wst-img/jingdian/baiti.png) no-repeat center center;
+    background-size: 1200px;
+    margin-top: 24px;
+    margin-bottom: 46px;
+}
+.mianbaoxue{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+
+}
+
+.biaozhi{
+    width: 33px;
+    height: 33px;
+    background: url(../../img/wst-img/jingdian/path.png) no-repeat center center;
+    background-size: 33px;
+}
+
+.biaozhi2{
+    width: 33px;
+    height: 33px;
+    background: url(../../img/wst-img/jingdian/anniu.png) no-repeat center center;
+    background-size: 33px;
+}
+.shouye,.chahu{
+    margin-right: 12px;
+}
+.shouye{
+    color: #8f8f8f;
+}
+.chahu{
+    color: #462327;
+}
+/*banner*/
+.banner-tu{
+    width: 100%;
+    height: 520px;
+    background: url(../../img/wst-img/jingdian/banner_02.png) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 120px;
+}
+/*title1*/
+.zhanshi{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+
+.title1{
+    width: 329px;
+    height: 68px;
+    margin: 0 auto;
+    background: url(../../img/wst-img/jingdian/gh-title.png) center center;
+    background-size: 329px;
+    margin-bottom: 88px;
+}
+
+.nav2{
+    width: 566px;
+    height: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav2 li{
+    width: 91px;
+    height: 17px;
+    line-height: 17px;
+    font-size: 16px;
+    text-align: center;
+
+}
+.nav2 li:hover{
+    background: url(../../img/wst-img/jingdian/gh-nav.png) center center;
+    background-size: 91px;
+}
+
+.nav2 li a{
+    color: #999999;
+}
+.nav2 li a:hover{
+    color: #462327;
+}
+
+.tuwen{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+
+
+}
+
+.tuwen-left {
+    width: 770px;
+    height: 439px;
+    background: url(../../img/wst-img/jingdian/gh-section1.png)  no-repeat center center;
+    background-size: 770px  439px;
+
+}
+
+.tuwen-left:hover{
+    transition: all  1s  ease;
+    background: url(../../img/wst-img/jingdian/yiru1.png)  no-repeat center center;
+    background-size: 770px  439px;;
+
+}
+
+
+.tuwen-left2 {
+    width: 770px;
+    height: 439px;
+    background: url(../../img/wst-img/jingdian/xiaobanner2.png)  no-repeat center center;
+    background-size: 770px  439px ;
+
+}
+
+.tuwen-left2:hover{
+    transition: all  1s  ease;
+    background: url(../../img/wst-img/jingdian/yiru2.png)  no-repeat center center;
+    background-size: 770px  439px;
+
+}
+
+
+.tuwen-right{
+    flex-grow: 1;
+    height: 100%;
+
+
+}
+
+.tu-top{
+    width:100%;
+    height: 218px;
+    background: url(../../img/wst-img/jingdian/gh-section4.png) no-repeat center center;
+    background-size: 100%;
+}
+
+#tu-top{
+    background: url(../../img/wst-img/jingdian/xiaobanner.png) no-repeat center center;
+    background-size: 428px;
+}
+
+.tuwen-bottom{
+    width: 100%;
+   text-align: center;
+    height: 222px;
+    overflow: hidden;
+
+}
+
+.tuwen-bottom div{
+    width: 100%;
+}
+
+.tuwen-bottom div:first-child{
+    margin-top: 60px;
+}
+
+.icon{
+    width: 43px;
+    height: 30px;
+    background: url(../../img/wst-img/jingdian/gh-tubiao2.png) no-repeat  center  center;
+    background-size: 43px;
+    margin: 5px 0;
+}
+.tuwen-bottom div:last-child{
+    margin-top: 12px;
+}
+
+.jiantou-box{
+    width: 234px;
+    height: 22px;
+    background: url(../../img/wst-img/jingdian/jiantou.png) no-repeat center center;
+    background-size: 234px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yuan-box{
+    width: 132px;
+    height: 26px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.yuan{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 26px;
+    background: #000;
+    color: #fff;
+}
+.yuan:hover{
+    background: #41a6ed;
+    cursor: pointer;
+}
+
+
+
+/*suhu展示*/
+.hu{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+
+}
+.suhu_biaoti{
+    width: 335px;
+    height: 81px;
+    margin: 0 auto;
+    background: url(../../img/wst-img/jingdian/suhu_07.png) no-repeat center center;
+    background-size: 335px;
+    margin-top: 120px;
+}
+
+.hu_box{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.hu_box:first-child{
+    margin-top: 126px;
+}
+
+.li_top {
+    width: 303px;
+    height: 367px;
+    transition: all 0.5s ease;
+
+}
+
+.li_top img{
+    width: 303px;
+    height: 367px;
+    display: block;
+}
+.li_top:hover{
+    box-shadow: 0 0 50px rgba(0,0,0,0.7);
+    cursor: pointer;
+}
+
+.li_bottom{
+    overflow: hidden;
+    width: 303px;
+    height: auto;
+    text-align: center;
+}
+.img{
+    width: 51px;
+    height: 13px;
+    margin: 0 auto;
+    background: url(../../img/wst-img/jingdian/zhen_18.png) no-repeat center center;
+    background-size: 51px  ;
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
+
+.li_bottom_zi1{
+    margin-top: 25px;
+}
+.li_bottom p{
+    line-height: 24px;
+}
+/*面包屑导航*/
+
+.mianbaoxue-box{
+    width: 610px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 120px;
+
+}
+.shang{
+    width: 58px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #9c9c9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+
+}
+.shangnei{
+    width: 50px;
+    height: 24px;
+    border-radius: 24px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+.ye{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #9c9c9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.yenei{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.sheng{
+    margin-right: 15px;
+}
+
+.youjian{
+    margin-right: 38px;
+}
+.tiao{
+
+    height: 24px;
+    font-size: 12px;
+    line-height: 24px;
+    margin-right: 6px;
+}
+
+#kongbai{
+    margin-right: 6px;
+}
+.shang  input{
+    outline: none;
+    text-align: center;
+
+
+}
+
+/*footer-logo*/
+
+.footer-logo{
+    width: 325px;
+    height: 88px;
+    background: url(../../img/wst-img/jingdian/LOGO2.png) no-repeat  center center;
+    background-size: 325px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 95px;
+}
+
+
+
+/*footer*/
+footer{
+    width: 100%;
+    height: 320px;
+    background: url(../../img/wst-img/jingdian/foot01.png) no-repeat center center;
+    background-size:cover;
+}
+
+.donghua{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 8px solid rgba(230,223,215,0.8);
+    background: #fff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@keyframes  move{
+
+    from{
+
+        transform: translateY(0);
+
+    }
+
+    to{
+
+        transform: translateY(-5px);
+
+    }
+
+
+
+
+}
+.do-jiantou {
+    width: 30px;
+    height: 18px;
+    background: url(../../img/wst-img/jingdian/toTop.png) no-repeat center center;
+    background-size: 30px;
+    animation: move 2s 1s ease infinite   ;
+}
+.do-lianxi {
+    width: 340px;
+    height: 58px;
+    margin: 0 auto;
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.do-li {
+    width: 70px;
+    height: 100%;
+    font-size: 12px;
+    color: #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.do-tu {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.do-tu img{
+    width: 15px;
+    height: 16px;
+}
+.do-zi {
+    width: 100%;
+    height: 12px;
+    line-height: 12px;
+    text-align: center;
+
+}
+
+.banquan{
+    margin-top: 55px;
+    text-align: center;
+    color: #ccc;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
